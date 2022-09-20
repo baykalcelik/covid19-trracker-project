@@ -1,0 +1,65 @@
+.App {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+
+.mainPicture{
+  display:block;
+  margin: 2rem 0rem;
+  width: 200px;
+  height:auto;
+}
+
+
+.cards{
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+
+}
+
+
+
+
+.ulkeler{
+  border:none;
+  outline:none;
+
+  border-bottom: 2px solid purple;
+  font-size: 0.8rem;
+  font-weight:bold;
+
+  padding: 0.3rem;
+  width:20rem;
+  background-color: rgb(218, 218, 218);
+ 
+}
+
+.ulkeler::-webkit-scrollbar {
+  display: none;
+}
+
+.options{
+  background-color: grey;
+  color:white;
+
+
+}
+
+.chartArea{
+  width:1000px;
+  height: 300px;
+  margin-top:2rem;
+}
+
+
+
+
+
+
